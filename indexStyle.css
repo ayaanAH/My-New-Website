@@ -177,7 +177,7 @@ nav ul
 
 #slideout-menu
 {
-  display: none;
+  display: block;
   background: #2d3436;
   z-index: 100;
   position: fixed;
@@ -185,6 +185,8 @@ nav ul
   margin-top: 72px;
   width: 100%;
   text-align: center;
+  opacity: 0;
+  pointer-events: none;
 }
 #slideout-menu ul
 {
