@@ -478,13 +478,26 @@ footer #social-media-footer ul li:hover a .fa-github
   {
     display: none;
   }
-  #slideout-menu
-  {
-    /* display: block; */
-  }
   #menu-icon
   {
     display: flex;
+  }
+  #slideout-menu
+  {
+    display: block;
+  }
+  #searchBox
+  {
+    display: none;
+  }
+  #blogpost
+  {
+    width: 100%;
+    border-left: 0;
+  }
+  #sidebar
+  {
+    display: none;
   }
 }
 

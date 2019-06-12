@@ -1,0 +1,55 @@
+/* PAGE HEADING */
+
+.page-heading
+{
+  font-size: 32px;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  transition: all 0.4s;
+  display: inline-block;
+  padding: 4px 32px;
+  margin-top: 120px;
+}
+
+.page-heading:hover
+{
+  padding: 4px 48px;
+  background: #990000;
+  color: white;
+}
+
+/* CARD META */
+
+.card-meta
+{
+  font-size: 14px;
+  color: #333;
+  padding: 8px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.card-meta a
+{
+  color: #333;
+}
+
+/* PAGINATION */
+
+.pagination
+{
+  padding: 8px;
+  text-align: center;
+  font-weight: bold;
+}
+.pagination a
+{
+  border-top: 3px solid white;
+  display: inline-block;
+  padding: 8px 16px;
+  transition: 0.4s;
+}
+.pagination a:hover
+{
+  text-decoration: none;
+  border-top: 3px solid black;
+}
